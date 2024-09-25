@@ -1,0 +1,61 @@
+Test Results for Assignment 1
+
+First Test Suite
+
+1. feet_to_acres:
+   Input: 100000
+   Output: 2.30
+
+2. mow_lawn:
+   Input: 10.0, 10.0, 5.0
+   Output: 20
+
+3. date_convert:
+   Input: 25101962
+   Output:  19621025
+
+4. falling_time:
+   Input: 50
+   Output: 3
+
+5. hypotenuse:
+   Input: 3.0, 4.0
+   Output:  5.0
+
+6. sum_even:
+   Input: 100
+   Output: 2550
+
+7. sum_partial_harmonic:
+   Input: 4
+   Output: 2.083333
+
+Second Test Suite
+
+1. feet_to_acres:
+   Input: 250000
+   Output: 5.74
+
+2. mow_lawn:
+   Input: 10.0, 20.0, 10.0
+   Output: 20
+
+3. date_convert:
+   Input: 15122021
+   Output:  20211215
+
+4. falling_time:
+   Input: 100
+   Output: 4
+
+5. hypotenuse:
+   Input: 8.0, 6.0
+   Output:  10.0
+
+6. sum_even:
+   Input: 20
+   Output: 110
+
+7. sum_partial_harmonic:
+   Input: 10
+   Output: 2.928968
