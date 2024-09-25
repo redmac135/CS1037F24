@@ -1,0 +1,61 @@
+
+-------------------------------------
+Test Results for Lab 1: Parameter Handling
+-------------------------------------
+
+Instructions:
+- Run your program with different sets of command-line parameters.
+- Record the output below each test case.
+
+-------------------------------------
+Test 1: No command-line parameters
+
+Command: ./lab_l01
+
+Output:
+Program Parameters:
+
+no arguments passed.
+
+-------------------------------------
+Test 2: Command-line parameters "A 1 some strings"
+
+Command: ./lab_l01 A 1 "some strings"
+
+Output:
+Program Parameters:
+
+argument 1: A
+argument 2: 1
+argument 3: some strings
+
+-------------------------------------
+Test 3: Command-line parameters "something random 9 8 7 6 5 4 3 2 1"
+
+Output: 
+Program Parameters:
+
+argument 1: something
+argument 2: random
+argument 3: 9
+argument 4: 8
+argument 5: 7
+argument 6: 6
+argument 7: 5
+argument 8: 4
+argument 9: 3
+argument 10: 2
+argument 11: 1
+-------------------------------------
+Test 4: Command-line parameters "A B C D E F G"
+
+Output:
+Program Parameters:
+
+argument 1: A
+argument 2: B
+argument 3: C
+argument 4: D
+argument 5: E
+argument 6: F
+argument 7: G
