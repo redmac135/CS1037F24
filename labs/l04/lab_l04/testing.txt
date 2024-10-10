@@ -1,0 +1,94 @@
+-------------------------------------
+@file testing.txt
+Lab 4 Test Results File
+-------------------------------------
+@author Ethan Zhao, 251346104, ezhao33@uwo.ca
+@version 2024-10-10
+-------------------------------------
+
+data.txt used for testing
+```
+apple
+banana
+orange
+grapefruit
+blueberry
+strawberry
+kiwi
+```
+
+RUN 1
+
+------------------------
+Test read_strings
+
+lines read: 7
+
+Contents of string array
+------------------------
+apple
+banana
+orange
+grapefruit
+blueberry
+strawberry
+kiwi
+
+------------------------
+Test strings_with_substring
+
+Enter substring: grape
+grapefruit
+------------------------
+Test strings_length
+
+Enter the length comparison value: 5
+
+LONG
+apple
+banana
+orange
+grapefruit
+blueberry
+strawberry
+
+SHORT
+kiwi
+
+
+RUN 2
+------------------------
+Test read_strings
+
+lines read: 7
+
+Contents of string array
+------------------------
+apple
+banana
+orange
+grapefruit
+blueberry
+strawberry
+kiwi
+
+------------------------
+Test strings_with_substring
+
+Enter substring: ki
+kiwi
+------------------------
+Test strings_length
+
+Enter the length comparison value: 8
+
+LONG
+grapefruit
+blueberry
+strawberry
+
+SHORT
+apple
+banana
+orange
+kiwi

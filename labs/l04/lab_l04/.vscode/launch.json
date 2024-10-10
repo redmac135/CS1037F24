@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/fakhri/Desktop/UWO/1037A/Labs/Lab4/l04_start",
+      "program": "/Users/fakhri/Desktop/UWO/1037A/Labs/Lab4/l04_start/build/Debug/outDebug"
+    }
+  ]
+}
