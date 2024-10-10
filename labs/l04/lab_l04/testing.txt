@@ -92,3 +92,46 @@ apple
 banana
 orange
 kiwi
+
+
+RUN 3
+------------------------
+Test read_strings
+
+lines read: 7
+
+Contents of string array
+------------------------
+apple
+banana
+orange
+grapefruit
+blueberry
+strawberry
+kiwi
+
+------------------------
+Test strings_with_substring
+
+Enter substring: a
+apple
+banana
+orange
+grapefruit
+strawberry
+------------------------
+Test strings_length
+
+Enter the length comparison value: 15
+
+LONG
+
+
+SHORT
+apple
+banana
+orange
+grapefruit
+blueberry
+strawberry
+kiwi

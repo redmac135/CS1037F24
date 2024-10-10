@@ -24,7 +24,8 @@ void strings_with_substring(strings_array *data, char *substr) {
             // if we are at end of substr, then this is a match
             if (*(substr + p2) == '\0') {
                 printf("%s\n", *(data->strings + i));
-                return;
+                // if match found, break to next line
+                break;
             }
 
             // if the characters are the same, then move p2
