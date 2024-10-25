@@ -42,6 +42,9 @@ int name_set_free(name_set **set) {
         current = next;
     }
 
+    // Now free the set
+    free(*set);
+
     return count;
 }
 
