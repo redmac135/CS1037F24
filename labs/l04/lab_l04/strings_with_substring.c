@@ -20,7 +20,7 @@ void strings_with_substring(strings_array *data, char *substr) {
         int p2 = 0; // pointer to substr
 
         // keep checking substring existence until we reach end of line
-        while (*(*(data->strings + i) + p1) != '\0') {
+        while (*(*(data->strings + i) + p1) != '\0' || *(substr + p2) == '\0') {
             // if we are at end of substr, then this is a match
             if (*(substr + p2) == '\0') {
                 printf("%s\n", *(data->strings + i));
@@ -34,6 +34,7 @@ void strings_with_substring(strings_array *data, char *substr) {
             } else {
                 // otherwise reset it
                 p2 = 0;
+                p1 -= p2;
             }
 
             // increment first pointer
