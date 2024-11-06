@@ -11,6 +11,12 @@ typedef struct stack {
 } STACK;
 
 /*
+ * Initialize the stack
+ * @param STACK *sp - pointer to the stack
+ */
+void stack_init(STACK *sp);
+
+/*
  * Push a node into a linked list stack
  * @param STACK *sp - pointer to the stack
  * @param NODE *np - pointer to the node.

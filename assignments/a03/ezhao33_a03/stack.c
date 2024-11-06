@@ -1,9 +1,27 @@
 #include "stack.h"
+#include <stdio.h>
 #include <stdlib.h>
 
+void stack_init(STACK *sp) {
+  // initialize stack
+  sp->top = NULL;
+  sp->length = 0;
+
+  return;
+}
+
 void push(STACK *sp, NODE *np) {
+  // case where node is null
+  if (np == NULL) {
+    return;
+  }
+
+  if (sp->length > 0) {
+    // case where stack is not empty
+    np->next = sp->top;
+  }
+
   // add node to top and increment length
-  np->next = sp->top;
   sp->top = np;
   sp->length++;
 
@@ -11,11 +29,19 @@ void push(STACK *sp, NODE *np) {
 }
 
 NODE *pop(STACK *sp) {
-  // remove top node and decrement length
+  // case where stack is empty
+  if (sp->length == 0) {
+    return NULL;
+  }
+
+  // get top node
   NODE *np = sp->top;
+
+  // remove top node
   sp->top = np->next;
-  sp->length--;
   np->next = NULL;
+  sp->length--;
+
   return np;
 }
 

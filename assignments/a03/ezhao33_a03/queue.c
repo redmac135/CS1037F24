@@ -1,6 +1,15 @@
 #include "queue.h"
 #include <stdlib.h>
 
+void queue_init(QUEUE *qp) {
+  // initialize the queue
+  qp->front = NULL;
+  qp->rear = NULL;
+  qp->length = 0;
+
+  return;
+}
+
 void enqueue(QUEUE *qp, NODE *np) {
   // case where the queue is empty
   if (qp->length == 0) {
