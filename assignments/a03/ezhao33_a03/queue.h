@@ -13,6 +13,12 @@ typedef struct queue {
 } QUEUE;
 
 /*
+ * Initialize the queue
+ * @param *qp - pointer to the queue
+ */
+void queue_init(QUEUE *qp);
+
+/*
  * Enqueue a node into a queue
  * @param *qp - pointer to the queue
  * @param NODE *np - pointer to the node.
